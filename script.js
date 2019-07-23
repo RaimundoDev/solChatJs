@@ -10,12 +10,13 @@ function enterSendMessage(event) {
     let button = event.key
 
     if (button == 'Enter') {
+        event.preventDefault()
         messageValidation()
     }
 }
 
 function messageValidation() {
-    if (TXT_MESSAGE.value == '' || TXT_MESSAGE.value == ' ') {
+    if (TXT_MESSAGE.value == '' || TXT_MESSAGE.length == 0 || TXT_MESSAGE.value == ' ') {
         TXT_MESSAGE.focus()
         return false
     } else {
