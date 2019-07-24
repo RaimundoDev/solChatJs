@@ -10,7 +10,7 @@ function enterSendMessage (event) {
   const button = event.key
 
   if (button === 'Enter') {
-    event.preventDefault()
+    event.preventDefault() // Don't left a breakline in the text field
     messageValidation()
   }
 }
