@@ -1,13 +1,17 @@
 # JS chat for solitary people
-### Just a small chat, where you can talk to yoursel how much you can!
+### Just a small chat, where you can talk to yourself how much you can!
 
-**v1**
+### V0.3
 
 ##### you can:
-- Send mesages
-- Read mesages
+- Send messages
+- Read messages
 
 ### To-Do List
+#### Future updates
 - Add configuration menu
-- Local storage for your mesages
-- Send images/Sounds 
+    - Chat personalization 
+        - Background change(color/image)
+        - Font Style and font size
+- Local storage for your messages
+- Send images/Sounds
